@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+p{
+    color: brown;
+}
+.container {
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid brown;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top span {
+    font-size: 14px;
+}
+
+.bold-red {
+    font-weight: bold;
+    color: red;
+}
+
+.qr-code {
+    text-align: right;
+}
+
+.header-main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header-main h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-main p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.personal-details p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.marks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.marks-table th, .marks-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.summary {
+    font-size: 14px;
+}
+
+.summary p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#la{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
